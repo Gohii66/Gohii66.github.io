@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+.nav-link{
+    color: #585856;
+}
+.nav-link:hover{
+    color: #881813;
+}
+.nav-link.active{
+    font-weight: bold;
+}
+.slider{
+    height: 500px;
+    display: flex;
+    width: 100%;
+    align-items: center !important;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    background-color: #990000;
+    color: white;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    border-radius: 4px;
+  }
+  #myBtn:hover {
+    background-color: #585856;
+  }
+  .title{
+    color: #990000;
+    text-align:center;
+    margin: 50px 0 20px 0;
+  }
+.rolam-text{
+    font-size: 20px;
+}
+p{
+    color: #666;
+}
+.termekek div{
+    text-align:center;
+
+}
+.termekek div a{
+    color: #666;
+    text-decoration: none;
+}
+.termekek div img{
+    object-fit: contain;
+    height: 200px;
+}
+
+.karrier p{
+    font-size: 24px;
+    margin-top: 15px;
+}
+.karrier a{
+    background: #666;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+.karrier a:hover{
+    background-color: #990000;
+
+}
+.kapcsolat p a{
+    color:#666;
+    text-decoration: none;
+}
+.kapcsolat p i{
+    margin-right:5px;
+    width: 15px;
+}
+.kapcsolat button{
+    background: #666;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border:none;
+}
+.kapcsolat button:hover{
+    background-color: #990000;
+}
+.form-check label{
+    font-size: 12px;
+}
+footer{
+    padding: 30px 0;
+    background-color: #666;
+}
+footer .navbar{
+    text-align:center;
+}
+footer .navbar .navbar-nav{
+    width: 100%;;
+}
+footer .nav-link, footer h3, footer p{
+    color:#fff;
+}
+footer p a{
+    color:#fff;
+    text-decoration: none;
+}
+footer p i{
+    margin-right:5px;
+    width: 15px;
+}
+.termek_leiras .buttons a{
+    background: #666;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border:none;
+}
+.termek_leiras .buttons a:hover{
+    background-color: #990000;
+}
+
+.termek_adatok img{
+    width: 25%;;
+}
+.termek_adatok h1{
+    width: 50%;;
+}
+
+@media screen and (max-width: 992px) {
+    .slider{
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .termekek div img{
+        height: auto;
+    }
+    .slider{
+        height: 250px;
+    }
+    .termek_adatok{
+        flex-direction: column;
+    }
+    .termek_adatok img{
+        width: 100%;;
+    }
+    .termek_adatok h1{
+        width: 100%;;
+    }
+}

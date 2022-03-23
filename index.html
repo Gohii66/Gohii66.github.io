@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Mészáros Milán próbafeladat</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
+
+    <header id="header">
+        <div class="container pt-4">
+            <div class="row">
+                <div class="col-md-3 col-12">
+                    <a href="index.html">
+                        <img src="img/logo.png" class="w-md-100 w-100" alt="">
+                    </a>
+                </div>
+                <div class="col-md-9 col-12">
+                    <nav class="navbar navbar-expand-md h-100 justify-content-center justify-content-md-end pt-4 pt-md-0">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link" href="#galeria">Galéria</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#rolam">Rólam</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#termekek">Termékek</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#karrier">Karrier</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#kapcsolat">Kapcsolat</a>
+                          </li>
+                        </ul>
+                      </nav>
+
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <h1 class="title" id="galeria">Galéria</h1>
+                <div class="col-12 slider">
+                    <div id="carouselExampleControls" class="carousel slide w-100" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img class="d-block w-100" src="img/slide1.png" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                              <img class="d-block w-100" src="img/slide2.png" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                              <img class="d-block w-100" src="img/slide3.png" alt="Third slide">
+                            </div>
+                          </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                        </a>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <h1 class="title" id="rolam">Rólam</h1>
+                <div class="col-12" >
+                    <p class="text-center rolam-text">
+                        2017. Júniusban végeztem a Váci Boronkay György Műszaki Szakközépiskolában Szoftverfejlesztő szakon, és az azóta megszerzett 1 éves Full Stack webfejlesztő és 
+                        2 éves Front end fejlesztői tapasztalatommal készítem el a megrendelt weboldalakat.
+                    </p>
+                    <p class="text-center rolam-text">
+
+                        A közeljövőben szeretném letenni az angol középfokú nyelvvizsgát és befejezni az 
+                        itthon elkezdett React, illetve Vue keretrendszer tanulását, mivel úgy gondolom, hogy ezzel már a Front End fejlesztők nagyban megtudják 
+                        könnyíteni a Back End fejlesztők és saját munkájukat is.
+                    </p>
+                    <p class="text-center rolam-text">
+
+                        Nyitott vagyok az új dolgokra és szeretem folyamatosan fejleszteni a tudásom, úgy gondolom ez ebben a szakmában még inkább fontos, hiszen elég
+                         gyakran hallani új keretrendszerekről, amikkel még jobbá és könnyebbé tehetjük a munkánkat.
+                    </p>                   
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row termekek">
+                <h1 class="title" id="termekek">Termékek</h1>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
+                        <a href="termek.html">
+                        <img src="https://static.daniella.hu/WE/I2/74/97/50/00/0/0/BIG.jpg" alt="" class="w-100"> 
+                            Csavarhúzó
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
+                        <a href="termek.html">
+                        <img src="https://static.daniella.hu/LU/MI/EV/CW/B3/P/0/BIG.jpg" alt="" class="w-100"> 
+                            Elektromos autó töltő
+                        </a>              
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
+                        <a href="termek.html">
+                        <img src="https://www.sieberz.hu/media/image/68/ce/34/2QI01MSZnysO7ms_600x600.jpg" alt="" class="w-100"> 
+                            Alma
+                        </a>              
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
+                        <a href="termek.html">
+                        <img src="https://railone.hu/media/termekek/felsovezetek-tarto-oszlopok/Rajz-BM.jpg" alt="" class="w-100"> 
+                            Oszlop
+                        </a>              
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
+                        <a href="termek.html">
+                        <img src="https://files.riel.hu/media/product-big/kooszlop2-60cb850f885ff.jpg" alt="" class="w-100"> 
+                            Fali tartó
+                        </a>              
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3"> 
+                        <a href="termek.html">
+                        <img src="https://www.sony.hu/image/470f7a084863d7314d94b7df60f7362e?fmt=pjpeg&wid=1014&hei=396&bgcolor=F1F5F9&bgc=F1F5F9" alt="" class="w-100">
+                            TV
+                        </a>              
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
+                        <a href="termek.html">
+                        <img src="https://www.elektromarkabolt.hu/prod_images/bosch-wau28s90by.png" alt="" class="w-100"> 
+                            Mosógép
+                        </a>              
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
+                        <a href="termek.html">
+                        <img src="https://egerviragkuldes.hu/wp-content/uploads/2018/06/eger-viragkuldes-virag-webshop-rendeles-emivirag-53-380x380.jpg" alt="" class="w-100"> 
+                            Virág
+                        </a>              
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
+                        <a href="termek.html">
+                        <img src="https://szonyegpalota.hu/wp-content/uploads/2019/03/DSC07554.jpg" alt="" class="w-100"> 
+                            Asztal
+                        </a>              
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
+                        <a href="termek.html">
+                        <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/42/33/e3/4233e3f8-0379-a905-3349-b873545391ed/pr_source.jpg/1000x1000bb.jpg" alt="" class="w-100"> 
+                            Telefon
+                        </a>              
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
+                        <a href="termek.html">
+                        <img src="http://updatefiles.loxone.com/KnowledgeBase/Online/Common/Images/100428%20install.png" alt="" class="w-100"> 
+                            Loxone audioserver
+                        </a>              
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
+                        <a href="termek.html">
+                        <img src="https://led24.cdn.shoprenter.hu/custom/led24/image/cache/w1719h900/product/Led%20l%C3%A1mpa/6w-edison-led-izzo.jpg" alt="" class="w-100"> 
+                            Izzó
+                        </a>              
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
+                        <a href="termek.html">
+                        <img src="https://webimg.praktiker.hu/_upload/images/praktiker_catalog/287727/600x600/287727_01_gomb-led-izzo-4w-g45-323lm-e27.png" alt="" class="w-100"> 
+                            Fehér izzó
+                        </a>              
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
+                        <a href="termek.html">
+                        <img src="https://www.szogker.hu/termekek/thumbnails/03G-05W1CS.jpg" alt="" class="w-100"> 
+                            Csőbilincs
+                        </a>              
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3"> 
+                        <a href="termek.html">
+                        <img src="https://villamossagbolt.hu/components/com_jshopping/files/img_products/full_kabel_vezetek_mk15530.jpg" alt="" class="w-100">
+                            MKH vezeték
+                        </a>              
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
+                        <a href="termek.html">
+                        <img src="https://hazravalo.hu/img/60391/XL_MERET_KUTYA_CICA_HORDOZO_KETREC/XL_MERET_KUTYA_CICA_HORDOZO_KETREC.jpg" alt="" class="w-100"> 
+                            Kutyaszállító ketrec
+                        </a>              
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
+                        <a href="termek.html">
+                        <img src="https://kbolt.cdn.shoprenter.hu/custom/kbolt/image/cache/w955h500/product/1008109.JPG" alt="" class="w-100"> 
+                            Könyv
+                        </a>              
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
+                        <a href="termek.html">
+                        <img src="https://www.simpleskincare.com/sk-eu/content/dam/brands/baba/hungary/35570706-ul-baba-kokuszolaj-sampon-400ml.png" alt="" class="w-100"> 
+                            Sampon
+                        </a>              
+                    </div>
+            </div>
+        </div>
+        <div class="container karrier">
+            <div class="row">
+                <h1 class="title" id="karrier">Karrier</h1>
+                <div class="col-12 col-md-6 col-lg-4 text-center mb-5">   
+                    <img src="img/karrier-img.jpg" class="w-100" alt="">  
+                    <p>Full stack fejlesztő</p>
+                    <a href="#">Bővebben</a>            
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 text-center mb-5">   
+                    <img src="img/karrier-img.jpg" class="w-100" alt="">  
+                    <p>Front end fejlesztő</p>
+                    <a href="#">Bővebben</a>            
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 text-center mb-5">   
+                    <img src="img/karrier-img.jpg" class="w-100" alt="">  
+                    <p>Junior back end fejlesztő</p>
+                    <a href="#">Bővebben</a>            
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 text-center mb-5">   
+                    <img src="img/designer-karrier-img.jpg" class="w-100" alt="">  
+                    <p>Web designer</p>
+                    <a href="#">Bővebben</a>            
+                </div>
+            </div>
+        </div>
+        <div class="container kapcsolat">
+            <div class="row">
+                <h1 class="title" id="kapcsolat">Kapcsolat</h1>
+                <div class="col-12 col-md-6 col-lg-4"> 
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2684.7771931996663!2d19.238922515634027!3d47.70816307919159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741d2e62dd84ae7%3A0x9028648830b57110!2zVsOhY3LDoXTDs3QsIEtpbml6c2kgw7p0IDcsIDIxNjM!5e0!3m2!1shu!2shu!4v1648066689797!5m2!1shu!2shu" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <p><a href="mailto:meszarosmilan66@gmail.com"><i class="fa fa-envelope"></i>meszarosmilan66@gmail.com</a></p>
+                    <p><a href="tel:06306329920"><i class="fa fa-phone"></i>06306329920</a></p>
+                    
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <form>
+                        <div class="form-group mb-3">
+                          <input type="text" class="form-control" id="name" placeholder="Név">
+                        </div>
+                        <div class="form-group mb-3">
+                            <input type="email" class="form-control" id="email" placeholder="Email">
+                        </div>
+                        <div class="form-group mb-3">
+                            <textarea class="form-control" id="message" rows="3" placeholder="Üzenet"></textarea>
+                          </div>
+                        <div class="form-check mb-3">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Az Adatkezelési tájékoztatóban foglaltakat megismertem és elfogadom</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Küldés</button>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <nav class="navbar ">
+
+                        <!-- Links -->
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#galeria">Galéria</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#rolam">Rólam</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#termekek">Termékek</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#karrier">Karrier</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#kapcsolat">Kapcsolat</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook fa-lg	"></i></a>
+                              </li>
+                        </ul>
+                      
+                      </nav>
+                </div>
+                <div class="col-12 col-md-4 text-center">
+                    <h3>Rólam</h3>
+                    <p>2017. Júniusban végeztem a Váci Boronkay György Műszaki Szakközépiskolában Szoftverfejlesztő szakon, és az azóta megszerzett 1 éves Full Stack webfejlesztő és 2 éves Front end fejlesztői tapasztalatommal készítem el a megrendelt weboldalakat.</p>
+                </div>
+                <div class="col-12 col-md-4 text-center">
+                    <p>Mészáros Milánnak hívnak, 3 év tapasztalattal rendelkezem webfejlesztés területén.</p>
+                    <p><i class="fa fa-location-arrow"></i>Vácrátót, Kinizsi út 7.</p>
+                    <p><a href="mailto:meszarosmilan66@gmail.com"><i class="fa fa-envelope"></i>meszarosmilan66@gmail.com</a></p>
+                    <p><a href="tel:06306329920"><i class="fa fa-phone"></i>06306329920</a></p>              
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
